@@ -84,7 +84,57 @@ video {
 
 /* Skill */
 .skill {
-  border: 1px solid red;
   height: 100%;
   margin: 0 200px;
+}
+.slider {
+  border: 1px solid blue;
+  height: 100%;
+}
+.mainskill {
+  border: 1px solid green;
+  height: 100%;
+}
+
+.maintitle,
+.subtitle {
+  font-size: 48px;
+}
+
+.mainlist,
+.sublist {
+  font-size: 32px;
+  margin: 20px 200px 0 200px;
+}
+
+/* Project */
+.project {
+  height: 100%;
+  margin: 0 200px;
+}
+.project_list {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 1px solid green;
+}
+
+.project_article,
+.project_picture {
+  width: 50%;
+}
+.project_article {
+  border: 1px solid red;
+}
+
+/* react-slick */
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+.slick-list,
+.slick-track,
+.slick-slide > div,
+.wtf {
+  height: 100%;
 }

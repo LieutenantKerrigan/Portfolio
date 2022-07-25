@@ -38,11 +38,11 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <div className="video">
+      {/* <div className="video">
         <video autoPlay loop muted>
           <source src={portfolio} />이 브라우저에서는 영상이 재생되지 않습니다.
         </video>
-      </div>
+      </div> */}
       <div className="screen">
         <div data-scroll style={style} className="menubtn">
           <CustomButton
@@ -50,28 +50,28 @@ function App() {
               setArticle(<Header />);
             }}
           >
-            Header /
+            &lt;Header /&gt;
           </CustomButton>
           <CustomButton
             onClick={() => {
               setArticle(<Skill />);
             }}
           >
-            Skill /
+            &lt;Skill /&gt;
           </CustomButton>
           <CustomButton
             onClick={() => {
               setArticle(<Project />);
             }}
           >
-            Project /
+            &lt;Project /&gt;
           </CustomButton>
           <CustomButton
             onClick={() => {
               setArticle(<Footer />);
             }}
           >
-            Footer /
+            &lt;Footer /&gt;
           </CustomButton>
         </div>
         <div className="article">{article}</div>
