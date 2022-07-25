@@ -7,7 +7,7 @@ import Skill from "./pages/Skill";
 import portfolio from "./images/portfolio.mp4";
 import { styled } from "@mui/system";
 import ScrollOut from "scroll-out";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const CustomButton = styled(Button)({
   fontFamily: "MaplestoryLight",
@@ -27,13 +27,14 @@ function App() {
     opacity: 0,
   });
   const [article, setArticle] = useState(<Header />);
-
-  setInterval(() => {
-    setStyle({ opacity: 1 });
-  }, 6000);
+  const Interval = useRef(null);
 
   useEffect(() => {
     ScrollOut({ once: true });
+    Interval.current = setInterval(() => {
+      setStyle({ opacity: 1 });
+      clearInterval(Interval.current);
+    }, 6000);
   }, []);
   return (
     <div className="App">
