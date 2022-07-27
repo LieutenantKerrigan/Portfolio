@@ -3,6 +3,10 @@ import ScrollOut from "scroll-out";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import bosstimer_img1 from "../images/bosstimer/img1.PNG";
+import bosstimer_img2 from "../images/bosstimer/img2.PNG";
+import bosstimer_img3 from "../images/bosstimer/img3.PNG";
+import bosstimer_img4 from "../images/bosstimer/img4.PNG";
 
 const Project = () => {
   const [style, setStyle] = useState({
@@ -22,7 +26,19 @@ const Project = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    infinite: false,
+    draggable: false,
   };
+  var settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: false,
+    draggable: false,
+  };
+
   return (
     <div data-scroll style={style} className="project">
       <Slider {...settings} className="slider">
@@ -34,9 +50,19 @@ const Project = () => {
               <div>description</div>
             </div>
             <div className="project_picture">
-              <Slider {...settings} className="slider">
-                <div>1</div>
-                <div>2</div>
+              <Slider {...settings2} className="slider">
+                <div className="imgbox" align="center">
+                  <img alt="img" src={bosstimer_img1} />
+                </div>
+                <div className="imgbox" align="center">
+                  <img alt="img" src={bosstimer_img2} />
+                </div>
+                <div className="imgbox" align="center">
+                  <img alt="img" src={bosstimer_img3} />
+                </div>
+                <div className="imgbox" align="center">
+                  <img alt="img" src={bosstimer_img4} />
+                </div>
               </Slider>
             </div>
           </div>

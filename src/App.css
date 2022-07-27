@@ -126,6 +126,22 @@ video {
 .project_article {
   border: 1px solid red;
 }
+.project_picture {
+  display: flex;
+  align-items: center;
+}
+.project_picture > .slider {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+.imgbox {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.imgbox > img {
+  object-fit: cover;
+}
 
 /* react-slick */
 .slick-dots li button:before,
