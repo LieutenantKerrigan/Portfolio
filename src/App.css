@@ -48,9 +48,15 @@ body {
 }
 
 @media (max-width: 1190px) {
+  body {
+    background-size: 1600px 2560px;
+  }
   .App {
     width: 1190px;
   }
+}
+
+@media (max-width: 500px) {
 }
 /* App */
 .App {
@@ -207,7 +213,7 @@ body {
   margin-bottom: 20px;
 }
 .projectitemarticle > div {
-  width: 550px;
+  width: 580px;
   margin: auto;
 }
 
@@ -218,6 +224,8 @@ body {
 
 a {
   text-decoration: none;
+  border-bottom: 3px ridge #ff7f00;
+  padding: 3px;
 }
 a:link,
 a:visited {
@@ -239,7 +247,7 @@ a:visited {
 }
 .footerarticle {
   flex: 1;
-  margin-top: 300px;
+  margin-top: 150px;
   line-height: 150%;
 }
 .link {

@@ -15,7 +15,7 @@ const Footer = () => {
     Interval.current = setInterval(() => {
       setStyle({ opacity: 1 });
       clearInterval(Interval.current);
-    }, 300);
+    }, 14000);
   }, []);
   const Interval = useRef(null);
 
@@ -29,18 +29,29 @@ const Footer = () => {
     },
   });
   return (
-    <div data-scroll style={style} className="footer">
+    <div className="footer">
       <div className="footerarticle">
         <TypeIt
           options={{
-            strings: ["이거 괜찮네가 아닌,", "빠지게 만드는 것이 목표입니다."],
+            strings: [
+              "이거 괜찮네로 끝나는 게 아닌,",
+              "이 것에 빠지게 만드는 것이 목표입니다.",
+              "이 목표를 함께하실",
+              "선장님의 연락을 기다리고 있습니다.\n",
+              "",
+              "지금은 서투르지만",
+              "하루하루 노를 저으며",
+              "언젠간, 이 넓은 바다에",
+              "이름을 날릴 수 있는",
+              "혁신을 만들겠습니다.",
+            ],
             speed: 50,
             startDelay: 1000,
             breakLines: true,
           }}
         />
       </div>
-      <div className="link">
+      <div data-scroll style={style} className="link">
         Link
         <CustomButton
           href="https://github.com/LieutenantKerrigan"

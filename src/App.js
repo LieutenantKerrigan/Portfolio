@@ -44,7 +44,7 @@ function App() {
     Interval.current = setInterval(() => {
       setStyle({ opacity: 1 });
       clearInterval(Interval.current);
-    }, 5500);
+    }, 6000);
   }, []);
   return (
     <div className="App">

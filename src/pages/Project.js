@@ -40,6 +40,7 @@ const Project = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     draggable: false,
+    swipe: false,
   };
   var settings2 = {
     dots: true,
@@ -151,9 +152,10 @@ const Project = () => {
             technology={`React
             Express`}
             description={`로또 1등에 당첨되려면
-            얼마 정도의 로또를 구매해야 될까란 호기심에 제작하게 되었습니다.
+            얼마 정도의 로또를 구매해야 될까란 호기심에 시작하게 되었습니다.
             동행복권API를 이용하여 회차별 당첨번호를 가져오려 했지만,
             CORS 이슈로 인해 Express를 사용하여 get API를 만들어서 해결했습니다.
+            현재 번호별 당첨횟수 통계 내역을 준비중입니다.
             `}
           />
         </div>
