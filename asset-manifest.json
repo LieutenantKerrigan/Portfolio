@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/movie_app/static/css/main.995c7893.css",
+    "main.js": "/movie_app/static/js/main.847fa538.js",
+    "static/media/1.PNG": "/movie_app/static/media/1.a1f81a608f09d1a987bb.PNG",
+    "static/media/MaplestoryBold.ttf": "/movie_app/static/media/MaplestoryBold.e39287220e971b277c0e.ttf",
+    "static/media/MaplestoryLight.ttf": "/movie_app/static/media/MaplestoryLight.9d9497585053c96c8082.ttf",
+    "static/media/2.PNG": "/movie_app/static/media/2.e6ca77c35785aaec1493.PNG",
+    "static/media/6.png": "/movie_app/static/media/6.49433c0f83e902839ee1.png",
+    "static/media/2.png": "/movie_app/static/media/2.6f551ef2073304afdcbd.png",
+    "static/media/5.png": "/movie_app/static/media/5.121050705fe5541b10bf.png",
+    "static/media/8.png": "/movie_app/static/media/8.666b674c9900336ecc11.png",
+    "static/media/3.png": "/movie_app/static/media/3.8e8d98ae1034d6b74c17.png",
+    "static/media/4.png": "/movie_app/static/media/4.70b8c26e2c582f780be9.png",
+    "static/media/1.png": "/movie_app/static/media/1.b8f2c2ee4b7577fba6c4.png",
+    "static/media/9.png": "/movie_app/static/media/9.b5599872e897004a1d02.png",
+    "static/media/6.PNG": "/movie_app/static/media/6.cd3f82e2d989dd12b046.PNG",
+    "static/media/7.png": "/movie_app/static/media/7.f6cf1e0972cd108a75f3.png",
+    "static/media/3.PNG": "/movie_app/static/media/3.c2032c2e98109ec01b42.PNG",
+    "static/media/5.PNG": "/movie_app/static/media/5.8c577a6155e44a2e1423.PNG",
+    "static/media/4.PNG": "/movie_app/static/media/4.ccf8e708442a5442b393.PNG",
+    "static/media/mysql-2.svg": "/movie_app/static/media/mysql-2.0c688de2f39a88350c7fd5ae4a90b5cf.svg",
+    "static/media/nodejs-1.svg": "/movie_app/static/media/nodejs-1.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/java-4.svg": "/movie_app/static/media/java-4.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/slick.svg": "/movie_app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/movie_app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/c.svg": "/movie_app/static/media/c.a776a608546a79750b150829bc9b099e.svg",
+    "index.html": "/movie_app/index.html",
+    "static/media/slick.ttf": "/movie_app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/movie_app/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/react-1.svg": "/movie_app/static/media/react-1.903d77ad940b12efaddde2484397ad4a.svg",
+    "static/media/logo-javascript.svg": "/movie_app/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "main.995c7893.css.map": "/movie_app/static/css/main.995c7893.css.map",
+    "main.847fa538.js.map": "/movie_app/static/js/main.847fa538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.995c7893.css",
+    "static/js/main.847fa538.js"
+  ]
+}
