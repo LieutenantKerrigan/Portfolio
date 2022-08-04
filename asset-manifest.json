@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.44737ad4.css",
+    "main.css": "/Portfolio/static/css/main.6aacf8d6.css",
     "main.js": "/Portfolio/static/js/main.8e984990.js",
     "static/media/1.PNG": "/Portfolio/static/media/1.a1f81a608f09d1a987bb.PNG",
     "static/media/MaplestoryBold.ttf": "/Portfolio/static/media/MaplestoryBold.e39287220e971b277c0e.ttf",
@@ -30,11 +30,11 @@
     "static/media/slick.woff": "/Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "static/media/react-1.svg": "/Portfolio/static/media/react-1.903d77ad940b12efaddde2484397ad4a.svg",
     "static/media/logo-javascript.svg": "/Portfolio/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
-    "main.44737ad4.css.map": "/Portfolio/static/css/main.44737ad4.css.map",
+    "main.6aacf8d6.css.map": "/Portfolio/static/css/main.6aacf8d6.css.map",
     "main.8e984990.js.map": "/Portfolio/static/js/main.8e984990.js.map"
   },
   "entrypoints": [
-    "static/css/main.44737ad4.css",
+    "static/css/main.6aacf8d6.css",
     "static/js/main.8e984990.js"
   ]
 }
