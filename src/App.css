@@ -10,7 +10,7 @@
 [data-scroll] {
   opacity: 0;
   will-change: transform, scale, opacity;
-  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 2s all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 [data-scroll="in"] {
   opacity: 1;
@@ -119,7 +119,6 @@ body {
 .slidercontenttitle {
   margin-top: 100px;
   font-size: 48px;
-  animation: colorchange 100s linear 1s infinite alternate;
 }
 
 .slidercontentlist {
@@ -179,15 +178,6 @@ body {
   }
 }
 
-@keyframes colorchange {
-  from {
-    color: white;
-  }
-  to {
-    color: black;
-  }
-}
-
 /* Project */
 .project {
   height: 100%;
@@ -242,18 +232,79 @@ a:visited {
 
 .footer {
   display: flex;
-  margin: 0 200px;
+  margin: auto;
   font-size: 28px;
+  width: 900px;
 }
 .footerarticle {
-  flex: 1;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
   margin-top: 150px;
   line-height: 150%;
 }
+
+.articletop {
+  flex: 2;
+}
+.articlebottom {
+  margin-top: 50px;
+}
+
 .link {
-  text-align: right;
-  margin-top: 700px;
   flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50px;
+  margin: auto 0 0 0;
+  text-align: right;
+}
+.contact {
+  border-bottom: 3px ridge #ff7f00;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  transition-delay: 0s;
+}
+.contact:hover {
+  color: #ff7f00;
+}
+
+.phone {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  transition-delay: 0.5s;
+}
+.email {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  transition-delay: 1s;
+}
+.address {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+  transition-delay: 1.5s;
+}
+.open {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.linktitle {
+  border-bottom: 3px ridge #ff7f00;
+}
+.githubbtn {
+  opacity: 0;
+  transition-property: opacity, transfrom;
+  transition: all 1s ease;
+  transform: translateX(-300px);
+}
+.openbtn {
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 /* react-slick */

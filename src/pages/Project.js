@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect } from "react";
 import ScrollOut from "scroll-out";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -22,16 +22,8 @@ import management_img8 from "../images/management/8.png";
 import management_img9 from "../images/management/9.png";
 
 const Project = () => {
-  const [style, setStyle] = useState({
-    opacity: 0,
-  });
-  const Interval = useRef(null);
   useEffect(() => {
     ScrollOut({ once: true });
-    Interval.current = setInterval(() => {
-      setStyle({ opacity: 1 });
-      clearInterval(Interval.current);
-    }, 300);
   }, []);
   var settings = {
     dots: true,
@@ -92,7 +84,7 @@ const Project = () => {
   };
 
   return (
-    <div data-scroll style={style} className="project">
+    <div data-scroll className="project">
       <Slider {...settings} className="slider">
         <div className="projectlist">
           <div className="projectpicture">

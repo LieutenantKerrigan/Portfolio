@@ -41,6 +41,7 @@ function App() {
 
   useEffect(() => {
     ScrollOut({ once: true });
+
     Interval.current = setInterval(() => {
       setStyle({ opacity: 1 });
       clearInterval(Interval.current);

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect } from "react";
 import ScrollOut from "scroll-out";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -15,6 +15,7 @@ const SkillText = ({ title, desc, img }) => {
     <div className="skilltext">
       <div className="skillimgbox">
         <img
+          style={{ cursor: "pointer" }}
           className="skillimg"
           src={img}
           alt="img"
@@ -31,16 +32,8 @@ const SkillText = ({ title, desc, img }) => {
 };
 
 const Skill = () => {
-  const [style, setStyle] = useState({
-    opacity: 0,
-  });
-  const Interval = useRef(null);
   useEffect(() => {
     ScrollOut({ once: true });
-    Interval.current = setInterval(() => {
-      setStyle({ opacity: 1 });
-      clearInterval(Interval.current);
-    }, 300);
   }, []);
 
   var settings = {
@@ -51,7 +44,7 @@ const Skill = () => {
     slidesToScroll: 1,
   };
   return (
-    <div data-scroll style={style} className="skill">
+    <div data-scroll className="skill">
       <Slider {...settings} className="slider">
         <div className="slidercontent">
           <div className="slidercontenttitle" align="center">
