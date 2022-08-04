@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b62a1582.css",
-    "main.js": "/Portfolio/static/js/main.d8fc31c2.js",
+    "main.js": "/Portfolio/static/js/main.d888583d.js",
     "static/media/1.PNG": "/Portfolio/static/media/1.a1f81a608f09d1a987bb.PNG",
     "static/media/MaplestoryBold.ttf": "/Portfolio/static/media/MaplestoryBold.e39287220e971b277c0e.ttf",
     "static/media/MaplestoryLight.ttf": "/Portfolio/static/media/MaplestoryLight.9d9497585053c96c8082.ttf",
@@ -31,10 +31,10 @@
     "static/media/react-1.svg": "/Portfolio/static/media/react-1.903d77ad940b12efaddde2484397ad4a.svg",
     "static/media/logo-javascript.svg": "/Portfolio/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "main.b62a1582.css.map": "/Portfolio/static/css/main.b62a1582.css.map",
-    "main.d8fc31c2.js.map": "/Portfolio/static/js/main.d8fc31c2.js.map"
+    "main.d888583d.js.map": "/Portfolio/static/js/main.d888583d.js.map"
   },
   "entrypoints": [
     "static/css/main.b62a1582.css",
-    "static/js/main.d8fc31c2.js"
+    "static/js/main.d888583d.js"
   ]
 }
